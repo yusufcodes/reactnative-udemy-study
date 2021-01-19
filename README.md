@@ -6,13 +6,13 @@ This repo stores the notes taken for the following Udemy course: [React Native -
 
 ### What is React Native?
 
-- React: A JavaScript Library for building User Interfaces
-- React Native:
-  - A collection of React components, which can be compiled to Native Widgets.
+- **React**: A JavaScript Library for building User Interfaces
+- **React Native**:
+  - A collection of React components, which can be compiled to Native Widgets
   - Access to Native Platform APIs
   - Connects JavaScript and Native Platform Code
 
-### How React Native works
+### How React Native Works
 
 - Special components such as **View**, **Text**, etc. are used in React Native, and are compiled to **Native Applications** - **Views** are compiled.
 - React Native maps re-usable components to the respective platform equivalents.
@@ -40,6 +40,7 @@ This repo stores the notes taken for the following Udemy course: [React Native -
 - Expo allows for app to be published standalone, no reliance on Expo Client
 
 **How Expo Works - Image**
+
 ![](https://snipboard.io/Jjapof.jpg)
 
 ### Creating our First React Native App - using Expo
