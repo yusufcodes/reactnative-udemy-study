@@ -61,3 +61,46 @@ This repo stores the notes taken for the following Udemy course: [React Native -
 ### Course Outline 
 
 ![](https://snipboard.io/HwR4uQ.jpg)
+
+## Section 2: Basics of React Native
+
+- Styling: There are two options, inline styles and StyleSheet Objects - the styling is based off of CSS - only a subset of properties are supported
+
+**App Being Built in this section - Goal Setting App:**
+
+![Goal Setting App](https://snipboard.io/QTAgtu.jpg)
+
+- View: Main usage is to help lay components out and apply any styling
+- Common to have different Views which are nested inside a main View
+
+```js
+  return (
+    <View style={styles.container}>
+      <View>...</View>
+      <View>...</View>
+    </View>
+  );
+```
+
+### Flexbox in React Native
+
+- All View uses **flexbox** by default
+- justifyContent: Align items on the **main axis** - e.g. if the flex direction is **row**, this would be the **X Axis**.
+- alignItems: Align items on the **cross axis** - e.g. if the flex direction is **row**, this would be the **Y Axis**
+- flex: Applied to items inside of a flex container, e.g. a View inside another view
+'flex' takes a number which will describe how much space it can take within its flex container. 
+
+### Using StyleSheets
+```js
+const styles = StyleSheet.create({
+  screen: {
+    padding: 50
+  }
+});
+
+{ ... }
+
+<View style={styles.screen}>
+```
+
+### Working with State and Events
